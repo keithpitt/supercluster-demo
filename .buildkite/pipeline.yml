@@ -1,2 +1,4 @@
 steps:
-  - command: ".buildkite/script.sh"
+  - command: "echo hello world"
+    plugins:
+      - https://github.com/buildkite/slurm-buildkite-plugin
